@@ -6,8 +6,16 @@
 
 SELECT * 
 FROM interview
-WHERE person_id IN (
-    SELECT id FROM person WHERE address_street_name = 'Northwestern Dr' ORDER BY address_number DESC LIMIT 1
-    UNION
-    SELECT id FROM person WHERE address_street_name = 'Franklin Ave' AND name LIKE '%Annabel%'
+WHERE person_id = (
+    SELECT id 
+    FROM person 
+    WHERE address_street_name = 'Northwestern Dr' 
+    ORDER BY address_number DESC 
+    LIMIT 1
+)
+OR person_id = (
+    SELECT id 
+    FROM person 
+    WHERE address_street_name = 'Franklin Ave' 
+      AND name LIKE '%Annabel%'
 );
