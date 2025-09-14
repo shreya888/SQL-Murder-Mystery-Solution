@@ -4,7 +4,7 @@ Solve a fictional murder by querying a structured database using SQL.
 This challenge is based on the interactive ["SQL Murder Mystery"](https://mystery.knightlab.com/) from Northwestern University’s Knight Lab.
 
 ## 1. Project Overview
-In this project, the crime is solved by using SQL to investigate a series of clues stored across multiple tables (people, interviews, drivers licenses, events, etc.). The goal is to correctly identify the culprit by analyzing data logically and sequentially.
+In this project, the crime is solved by using SQL to investigate a series of clues stored across multiple tables (people, interviews, drivers licenses, events, etc.). The goal is to correctly identify the culprit by analyzing data logically and sequentially. All the queries are in a `.sql` file and their respective results are located in `/results` folder.
 
 ## 2. Project Structure
 ```
@@ -66,7 +66,7 @@ This query filters the `crime_scene_report` table for a murder that occurred in 
 
 * **Query File**: [`01_crime_scene_report.sql`](01_crime_scene_report.sql)
 
-* **Result**:
+* **Result**: [Crime Scene Report](results/01_crime_scene_report.png)
 ![Crime Scene Report](results/01_crime_scene_report.png)
 
 
