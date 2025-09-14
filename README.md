@@ -57,6 +57,17 @@ Each .sql file represents a step in this investigation.
 | `08_event_attendance.sql`       | Checking suspects' event attendance        | Query counting event attendance for suspects mentioned in interviews.                         |
 | `09_person_details.sql`         | Fetch details for a specific person        | Final detail lookup of the identified person by ID.                                           |
 
+### 01_crime_scene_report.sql
+
+* **Purpose**: Find initial crime details to narrow down the time and location.
+
+* **Query Summary**:
+This query filters the `crime_scene_report` table for a murder that occurred in SQL City in January 2018.
+
+* **Query File**: [`01_crime_scene_report.sql`](01_crime_scene_report.sql)
+
+* **Result**:
+![Crime Scene Report](results/01_crime_scene_report.png)
 
 
 
