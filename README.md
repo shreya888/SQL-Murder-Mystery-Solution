@@ -66,7 +66,7 @@ This query filters the `crime_scene_report` table for a murder that occurred in 
 
 * **Query File**: [`01_crime_scene_report.sql`](01_crime_scene_report.sql)
 
-* **Result**: [Crime Scene Report](results/01_crime_scene_report.png)
+* **Result**: [`results/01_crime_scene_report.png`](results/01_crime_scene_report.png)
 ![Crime Scene Report](results/01_crime_scene_report.png)
 
 
